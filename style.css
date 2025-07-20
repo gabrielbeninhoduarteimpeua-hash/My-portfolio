@@ -1,0 +1,280 @@
+
+body {
+  font-family: 'Georgia', serif;
+  background: #f2efe9;
+  color: #2a2a2a;
+  margin: 0; padding: 0;
+}
+
+.cor-rosa {
+  color:#440632ee;
+}
+
+h1, h2 {
+  font-weight: 600;
+}
+
+section {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.capa {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.texto-capa h1 {
+  font-size: 3rem;
+}
+
+.foto-capa img {
+  width: 280px;
+  border-radius: 50% 30% / 50% 50%;
+  object-fit: cover;
+  border: 4px solid green; /* Aqui está a borda verde */
+}
+}
+
+.sobre-mim .conteudo-sobre {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.sobre-mim img {
+  width: 300px;
+  border-radius: 20px;
+}
+
+.galeria {
+  display: flex;
+  gap: 20px;
+}
+
+.galeria img {
+  width: 45%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.texto-inspirador {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.texto-inspirador .texto {
+  flex: 1;
+  font-style: italic;
+  font-size: 1.1rem;
+}
+
+.texto-inspirador .imagem img {
+  width: 320px;
+  border-radius: 10px;
+}
+
+.mais-trabalhos {
+  display: flex;
+  gap: 20px;
+}
+
+.mais-trabalhos img {
+  width: 48%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.experiencia .conteudo-exp {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.experiencia img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.contato .contato-conteudo {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  text-aligner: center;
+}
+
+.contato img {
+  width: 80px;
+  border-radius: 10px;
+  object-fit: cover;
+   text-aligner: center;
+}
+
+form label {
+  display: block;
+  margin-bottom: 15px;
+  font-weight: 600;
+   text-aligner: center;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 1rem;
+  resize: vertical;
+   text-aligner: center;
+}
+
+form button {
+  background-color: #c8a68c;
+  border: none;
+  padding: 12px 24px;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 6px;
+   text-aligner: center;
+}
+
+form button:hover {
+  background-color: #a87f6d;
+   text-aligner: center;
+}
+
+.contato {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+}
+
+.contato-conteudo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imagem-com-texto {
+  position: relative;
+  display: inline-block;
+}
+.imagem-com-texto {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.imagem-com-texto img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.texto-central {
+  position: absolute;
+  color: white;
+  font-size: 18px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 6px 10px;
+  border-radius: 4px;
+}
+
+
+/* Showcase */
+#showcase{
+  min-height:400px;
+  background:url('../img/showcase.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align:center;
+  color:#ffffff;
+}
+
+/* Header **/
+header{
+  background:#35424a;
+  color:#ffffff;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:#e8491d 3px solid;
+}
+
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+  margin:0;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .highlight, header .current a{
+  color:#e8491d;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+
+/* Showcase */
+#showcase{
+  min-height:400px;
+  background:url('../img/showcase.jpg') no-repor:#cccccc;
+  font-weight:bold;
+}
+
+/* Showcase */
+#showcase{
+  min-height:400px;
+  background:url('../img/showcase.jpg');
+  text-align:center;
+  color:#ffffff;
+}
+
+#showcase h1{
+  margin-top:100px;
+  font-size:55px;
+  margin-bottom:10px;
+}
+
+#showcase p{
+  font-size:20px;
+}
+.portfolio-container {
+  border: 20px solid #001f3f; /* azul escuro */
+  padding: 10px;
+  border-radius: 20px; /* opcional, para bordas arredondadas */
+  margin: 1px;
+}
+```
